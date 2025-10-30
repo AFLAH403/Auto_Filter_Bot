@@ -31,12 +31,12 @@ INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when i
 #Making it false will not save caption in db SO you can save some storage space
 
 
-PICS = (environ.get('PICS', 'https://graph.org/file/56b5deb73f3b132e2bb73.jpg https://graph.org/file/5303692652d91d52180c2.jpg https://graph.org/file/425b6f46efc7c6d64105f.jpg https://graph.org/file/876867e761c6c7a29855b.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://telegra.ph/file/febbcb12b188e8099a6ed-999d43867639fe81fe.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://graph.org/file/56b5deb73f3b132e2bb73.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/242b7f1b52743938d81f1.jpg'))
-FSUB_PICS = (environ.get('FSUB_PICS', 'https://graph.org/file/7478ff3eac37f4329c3d8.jpg https://graph.org/file/56b5deb73f3b132e2bb73.jpg')).split()  # Fsub pic
+FSUB_PICS = (environ.get('FSUB_PICS', 'https://telegra.ph/file/febbcb12b188e8099a6ed-999d43867639fe81fe.jpg')).split()  # Fsub pic
 
 # ============================
 # Admin, Channels & Users Configuration
@@ -79,7 +79,7 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'dreamcinezone_files') # Collec
 
 # If MULTIPLE_DB Is True Then Fill DATABASE_URI2 Value Else You Will Get Error.
 MULTIPLE_DB = is_enabled(os.environ.get('MULTIPLE_DB', "True"), False) # Type True For Turn On MULTIPLE DB FUNTION 
-DATABASE_URI2 = environ.get('DATABASE_URI2', "")  # MongoDB URI for the second database (if MULTIPLE_DB is True)
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://didhhhashi_db_user:c1xFpk2cDwjgaAkT@cluster0.a5iendo.mongodb.net/?appName=Cluster0")  # MongoDB URI for the second database (if MULTIPLE_DB is True)
 # ============================
 # Movie Notification & Update Settings
 # ============================
@@ -120,9 +120,9 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/dreamxbotz') # Group link for the bot
-OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/dreamxbotz') # Owner link for the bot
-UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/dreamxbotz') # Update channel link for the bot
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+sHerL0rGCiRlMzg1') # Group link for the bot
+OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Simone_Ford') # Owner link for the bot
+UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://t.me/+sHerL0rGCiRlMzg1') # Update channel link for the bot
 
 # ============================
 # User Configuration
