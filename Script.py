@@ -224,7 +224,8 @@ Nᴀᴍᴇ : {}
 
 Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
     
-    CAPTION = """<b><a href="https://t.me/dreamxbotz">{file_name}</a></b>\n\n<b>⚜️ Powered By : <a href="https://t.me/dreamxbotz">[ ᴅʀᴇᴀᴍxʙᴏᴛᴢ ]</a></b>"""
+    CAPTION = """📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
+FɪʟᴇSɪᴢᴇ : {file_size}</b>"""
 
     
     MOVIE_UPDATE_NOTIFY_TXT = """
